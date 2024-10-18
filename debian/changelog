@@ -116,7 +116,7 @@ grx (2.4.9-0ev3dev7) stable; urgency=medium
 
 grx (2.4.9-0ev3dev6) testing; urgency=medium
 
-  * Fix context not correctly saved in in GrClearContextC, GrFloodSpillC and 
+  * Fix context not correctly saved in in GrClearContextC, GrFloodSpillC and
     GrFloodSpillC2.
 
  -- David Lechner <david@lechnology.com>  Tue, 10 Feb 2015 22:07:37 -0600

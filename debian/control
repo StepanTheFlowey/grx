@@ -25,7 +25,7 @@ Build-Depends: debhelper (>= 10),
     valadoc
 Standards-Version: 4.3.0
 Section: libs
-Homepage: https://github.com/StepanTheFlowey/grx
+Homepage: http://www.ev3dev.org
 Vcs-Git: https://github.com/StepanTheFlowey/grx.git
 Vcs-Browser: https://github.com/StepanTheFlowey/grx
 

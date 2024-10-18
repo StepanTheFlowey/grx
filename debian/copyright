@@ -1,4 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: <https://github.com/ev3dev/grx>
+Upstream-Name: grx
 
 Files: *
 Copyright: 1987-2012 Too many to list. See individual files.
