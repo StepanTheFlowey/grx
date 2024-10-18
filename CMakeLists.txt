@@ -7,6 +7,10 @@ set (GIR_NAME "Grx")
 set (GIR_VERSION "3.0")
 set (PACKAGE_NAME ${PROJECT_NAME}-${GIR_VERSION})
 
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -s -pipe")
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
+
 # Configuration settings
 
 set (GRX_DEBUG "OFF" CACHE STRING "Debug message flags")

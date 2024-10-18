@@ -25,9 +25,9 @@ Build-Depends: debhelper (>= 10),
     valadoc
 Standards-Version: 4.3.0
 Section: libs
-Homepage: https://github.com/ev3dev/grx
-Vcs-Git: https://github.com/ev3dev/grx.git
-Vcs-Browser: https://github.com/ev3dev/grx
+Homepage: https://github.com/StepanTheFlowey/grx
+Vcs-Git: https://github.com/StepanTheFlowey/grx.git
+Vcs-Browser: https://github.com/StepanTheFlowey/grx
 
 Package: libgrx-3.0-2
 Architecture: any
