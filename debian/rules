@@ -1,7 +1,13 @@
 #!/usr/bin/make -f
 
+export DH_QUIET=1
+
 %:
 	dh $@ --with gir
+
+override_dh_auto_configure:
+	mkdir -p obj-arm-linux-gnueabi
+	cd obj-arm-linux-gnueabi && cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_SYSCONFDIR=/etc -DCMAKE_INSTALL_LOCALSTATEDIR=/var -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF "-GUnix Makefiles" -DCMAKE_INSTALL_LIBDIR=lib/arm-linux-gnueabi ..
 
 override_dh_makeshlibs:
 	dh_makeshlibs --exclude plugin

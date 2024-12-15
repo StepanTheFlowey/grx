@@ -8,9 +8,9 @@ set (GIR_NAME "Grx")
 set (GIR_VERSION "3.0")
 set (PACKAGE_NAME ${PROJECT_NAME}-${GIR_VERSION})
 
-set(CMAKE_BUILD_TYPE Release)
-set(CMAKE_CXX_FLAGS_RELEASE "-O3 -s -pipe")
-set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
+set (CMAKE_BUILD_TYPE Release)
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -s -pipe -march=armv5tej")
+set (CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 # Configuration settings
 
